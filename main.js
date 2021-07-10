@@ -1,16 +1,16 @@
-var user = 'John Doe';
-var student = 'Nikita';
-var user = student;
+let  user = 'John Doe';
 console.log(user);
+let  student = 'Nikita';
 console.log(student);
-// переменная user присваивает значение переменной student, то есть Nikita
-var test = 1 + '1';
-//при добавлении строчного типа данных к номерному происходит конкатенация - слияние строк и получится 11
+let  user = student;
+// the user variable assigns the value to the student variable, i.e. Nikita
+let  test = 1 + '1';
+// when adding a string data type to a numbered one, concatenation occurs - the strings are merged and you get 11
 test = test - 1 
 console.log(test);
-// test -= 1 короткий способ 
-// если отнимаем один то получается 10 так как у нас число 11 с строчным типом,если убрать строчный тип поличим 0
-var test = Boolean (1 + '1');
+// test - = 1 short way
+// if we subtract one, then it turns out 10, since we have a number 11 with a string type, if we remove the string type, we polish 0
+let test = Boolean (1 + '1');
  console.log(test);
 //  var test = !! 1 + '1'
-// будет true так как у нас известное число больше нуля занимающие строку...
+// will be true since we have a known number greater than zero occupying a string ...
