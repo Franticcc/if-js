@@ -1,0 +1,23 @@
+{
+  "name": "if",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franticcc/if-js.git"
+  },
+  "author": "frantic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franticcc/if-js/issues"
+  },
+  "homepage": "https://github.com/Franticcc/if-js#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "husky": "^7.0.0"
+  }
+}
