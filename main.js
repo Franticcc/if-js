@@ -12,13 +12,13 @@ const arrayMoreLess = [2, 5, 8, 15, 0, 6, 20, 3]
 
 for (let i = 0; i < arrayMoreLess.length; i++) {
   if (arrayMoreLess[i] > 5 && arrayMoreLess[i] < 10)
-    console.log(arrayMoreLess);
+    console.log(arrayMoreLess[i])
 };
 
-const arrayEvenElements = [2, 5, 8, 15, 0, 6, 20, 3]
+const arrayEvenElements = [2, 5, 8, 15, 0, 6, 20, 3];
 
 for (let i = 0; i < arrayEvenElements.length; i++) {
-  if (arrayEvenElements[i] % 2 === 0)
-  console.log(arrayEvenElements[i])
-};
-
+  if (arrayEvenElements[i] % 2 === 0) {
+    console.log(arrayEvenElements[i]);
+  } 
+}
